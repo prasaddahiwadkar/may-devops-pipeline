@@ -17,4 +17,4 @@ stage ('code build')
    {sh 'echo build'}
   }
 }
-}
+
