@@ -1,5 +1,6 @@
 pipeline
 agent any
+{
 stages
 {
 
@@ -17,4 +18,4 @@ stage ('code build')
    {sh 'echo build'}
   }
 }
-
+}
