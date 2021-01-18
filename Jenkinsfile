@@ -19,6 +19,13 @@ stage ('code build')
   { steps
    {sh 'echo build'}
   }
+  
+    stage ('code approval')
+  {steps
+   { input 'Code Approval ?'}
+  
+  }
+  
   stage ('code delpoy')
   {steps
    { sh 'echo deploy'}
