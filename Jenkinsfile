@@ -22,7 +22,7 @@ stage ('code build')
   
     stage ('code approval')
   {steps
-   { input 'Code Approval ?'}
+   { input "Please Approve the deployment?" }
   
   }
   
